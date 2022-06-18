@@ -1,2 +1,3 @@
 # Software-Designing-Patterns
-List of different designing patterns
+This project contanins list of different designing patterns,
+Check the branches for individual pattern,that could be used in Unity3D.
