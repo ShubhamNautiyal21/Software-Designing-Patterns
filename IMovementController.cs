@@ -2,5 +2,5 @@
 
 public interface IMovementController
 {
-    void s();   
+    void Execute();   
 }
