@@ -5,22 +5,22 @@ using UnityEngine;
 
 public class MoveLeft : IMovementController
 {
-    public void Execute() => Debug.LogError("Move left");
+    public void Execute(MovingPalScript movingPalScript) => Debug.LogError("Move left");
 
 }
 public class MoveUp : IMovementController
 {
-    public void Execute() => Debug.LogError("Move Up");
+    public void Execute(MovingPalScript movingPalScript) => Debug.LogError("Move Up");
 
 }
 public class MoveRight : IMovementController
 {
-    public void Execute() => Debug.LogError("Move Right");
+    public void Execute(MovingPalScript movingPalScript) => Debug.LogError("Move Right");
 
 }
 public class MoveDown : IMovementController
 {
-    public void Execute() => Debug.LogError("Move Down");
+    public void Execute(MovingPalScript movingPalScript) => Debug.LogError("Move Down");
 
 }
 /// <summary>
@@ -36,8 +36,8 @@ public class Movement
     //    _move = imovementController;
     //}
 
-    public void Execute(IMovementController imovementController)
+    public void Execute(IMovementController imovementController,MovingPalScript movingPalScript)
     {
-        imovementController.Execute();
+        imovementController.Execute(movingPalScript);
     }
 }
