@@ -56,7 +56,7 @@ public class MovingPalScript : MonoBehaviour
         }
         if (moving) { 
             moving = false;
-            mov.Execute(iMov);
+            mov.Execute(iMov,this);
         }
 
     }
