@@ -2,5 +2,5 @@
 
 public interface IMovementController
 {
-    void Execute();   
+    void Execute(MovingPalScript movingPalScript);   
 }
